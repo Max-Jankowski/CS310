@@ -1,5 +1,3 @@
-# CS310
-Assignments for Bellevue C++ Class
 # CS310 C++
 ## Contributors 
 
