@@ -1,7 +1,7 @@
 # CS310
 Assignments for Bellevue C++ Class
-#H1 CS310 C++
-##H2 Contributors 
+# CS310 C++
+## Contributors 
 
-*Dr. Robert Flowers
-*Max Jankowski
+* Dr. Robert Flowers
+* Max Jankowski
