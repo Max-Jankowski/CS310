@@ -1,4 +1,5 @@
-
+//Max Jankowski
+//CS310 assignment week 3
 
 #include <iomanip>
 #include <iostream>
@@ -6,14 +7,14 @@
 using namespace std;
 
 int main() {
-
+//declaring variables
     double netPrice;
     double estSales;
 
     const double option1 = 25000.00;
     double option2;
     double option3;
-
+// asking for and storing author input
     cout << "What do you estimate to be the total of sales?: ";
     cin >> estSales;
     cout << endl;
@@ -22,9 +23,9 @@ int main() {
     cin >> netPrice;
     cout << endl;
 
-    option2 = 0.125 * netPrice * estSales;
+    option2 = 0.125 * netPrice * estSales; // simple option 2 calculation
 
-    if (estSales > 4000)
+    if (estSales > 4000) //using a control function to calculate option 3 value
         option3 = (0.1 * netPrice * estSales) + ((estSales - 4000) * (netPrice * .14));
     else
         option3 = (0.1 * netPrice * estSales);
